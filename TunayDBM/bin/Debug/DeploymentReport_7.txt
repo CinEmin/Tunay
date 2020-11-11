@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column ProductQuantity in table [dbo].[Product] is currently  VARCHAR (50) NOT NULL but is being changed to
+          INT NOT NULL. Data loss could occur.
+
+** User actions
+     Alter
+       [dbo].[Product] (Table)
+
+** Supporting actions
+     Refresh
+       [dbo].[FullProductInfo] (View)
+
+The type for column ProductQuantity in table [dbo].[Product] is currently  VARCHAR (50) NOT NULL but is being changed to  INT NOT NULL. Data loss could occur.
+

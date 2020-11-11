@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "U0w415vXcthfCMmG5s47mlzXMbtZhuduci+l8yT82et8qiaF3snaZA7PJjiZtNsvgUq9KOERJHzDL0HcoGnM8Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eciftci\\source\\repos\\TunayDeneme\\TunayEntity\\TunayEntity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eciftci\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\eciftci\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

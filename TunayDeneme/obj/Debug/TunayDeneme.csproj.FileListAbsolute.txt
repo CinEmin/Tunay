@@ -1,0 +1,16 @@
+C:\Users\eciftci\source\repos\TunayDeneme\TunayDeneme\bin\Debug\TunayDeneme.exe.config
+C:\Users\eciftci\source\repos\TunayDeneme\TunayDeneme\bin\Debug\TunayDeneme.exe
+C:\Users\eciftci\source\repos\TunayDeneme\TunayDeneme\bin\Debug\TunayDeneme.pdb
+C:\Users\eciftci\source\repos\TunayDeneme\TunayDeneme\obj\Debug\TunayDeneme.csprojAssemblyReference.cache
+C:\Users\eciftci\source\repos\TunayDeneme\TunayDeneme\obj\Debug\TunayDeneme.csproj.ResolveComReference.cache
+C:\Users\eciftci\source\repos\TunayDeneme\TunayDeneme\obj\Debug\MainWindow.g.cs
+C:\Users\eciftci\source\repos\TunayDeneme\TunayDeneme\obj\Debug\App.g.cs
+C:\Users\eciftci\source\repos\TunayDeneme\TunayDeneme\obj\Debug\TunayDeneme_MarkupCompile.cache
+C:\Users\eciftci\source\repos\TunayDeneme\TunayDeneme\obj\Debug\TunayDeneme_MarkupCompile.lref
+C:\Users\eciftci\source\repos\TunayDeneme\TunayDeneme\obj\Debug\MainWindow.baml
+C:\Users\eciftci\source\repos\TunayDeneme\TunayDeneme\obj\Debug\TunayDeneme.g.resources
+C:\Users\eciftci\source\repos\TunayDeneme\TunayDeneme\obj\Debug\TunayDeneme.Properties.Resources.resources
+C:\Users\eciftci\source\repos\TunayDeneme\TunayDeneme\obj\Debug\TunayDeneme.csproj.GenerateResource.cache
+C:\Users\eciftci\source\repos\TunayDeneme\TunayDeneme\obj\Debug\TunayDeneme.csproj.CoreCompileInputs.cache
+C:\Users\eciftci\source\repos\TunayDeneme\TunayDeneme\obj\Debug\TunayDeneme.exe
+C:\Users\eciftci\source\repos\TunayDeneme\TunayDeneme\obj\Debug\TunayDeneme.pdb

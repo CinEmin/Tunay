@@ -1,0 +1,22 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Product] (Table)
+       [dbo].[ProductPackage] (Table)
+       [dbo].[ProductProperty] (Table)
+       [dbo].[ProductQuality] (Table)
+       [dbo].[FK_Product_ProductProperty] (Foreign Key)
+       [dbo].[FK_ProductProperty_ProductQuality] (Foreign Key)
+       [dbo].[FK_ProductProperty_ProductPackage] (Foreign Key)
+       [dbo].[FullProductInfo] (View)
+
+** Supporting actions

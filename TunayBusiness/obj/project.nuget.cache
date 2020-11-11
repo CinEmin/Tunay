@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cPbS35UvqTQ/ZsMkmoD0PeBJ+HVr1V1jI6x0DN6FZRlf1Db6Q0tL7SIqLOGZfxLuJV84FeHVsbKKXkd8BL67gw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eciftci\\source\\repos\\TunayDeneme\\TunayBusiness\\TunayBusiness.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eciftci\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\eciftci\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

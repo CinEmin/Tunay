@@ -1,0 +1,5 @@
+C:\Users\eciftci\source\repos\TunayDeneme\TunayData\bin\Debug\netstandard2.0\TunayData.deps.json
+C:\Users\eciftci\source\repos\TunayDeneme\TunayData\bin\Debug\netstandard2.0\TunayData.dll
+C:\Users\eciftci\source\repos\TunayDeneme\TunayData\obj\Debug\netstandard2.0\TunayData.csprojAssemblyReference.cache
+C:\Users\eciftci\source\repos\TunayDeneme\TunayData\obj\Debug\netstandard2.0\TunayData.AssemblyInfoInputs.cache
+C:\Users\eciftci\source\repos\TunayDeneme\TunayData\obj\Debug\netstandard2.0\TunayData.AssemblyInfo.cs

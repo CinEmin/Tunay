@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="e7e3db4d-6109-4e44-8c19-e6a8cfd12a33" ChangeDateTime="11/10/2020 08:45:03">
+    <Property Name="ElementName" Value="[dbo].[ProductPackage].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProductPackage]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProductPackageId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="205f2914-4abb-423f-9f23-3c77ef1b9a55" ChangeDateTime="11/10/2020 08:47:02">
+    <Property Name="ElementName" Value="[dbo].[ProductProperty].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProductProperty]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProductPropertyId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1cffa8a5-dd0c-4ee7-9e39-5fd210f2b0e6" ChangeDateTime="11/10/2020 08:47:18">
+    <Property Name="ElementName" Value="[dbo].[ProductQuality].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProductQuality]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProductQualityId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fe387894-6099-4d50-8447-d30c68ac0c83" ChangeDateTime="11/10/2020 08:51:02">
+    <Property Name="ElementName" Value="[dbo].[ProductPackage].[DrumType]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProductPackage]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PackageType" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ac155ace-aa9a-4f6b-81d9-fcff4b839bc1" ChangeDateTime="11/10/2020 09:00:28">
+    <Property Name="ElementName" Value="[dbo].[ProductPackage].[TotalDrumNumber]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProductPackage]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TotalDrumCount" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="042f2e95-df2e-44d2-9b22-857d5a65537b" ChangeDateTime="11/10/2020 09:14:51">
+    <Property Name="ElementName" Value="[dbo].[ProductQuality].[BrixMid]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProductQuality]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BrixAvg" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="61345eaf-2147-470e-9172-855c881d460d" ChangeDateTime="11/10/2020 09:15:31">
+    <Property Name="ElementName" Value="[dbo].[ProductQuality].[AcidityType]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProductQuality]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AcidityTypeId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fb39ef49-0e8c-4326-b9b8-33187edbba89" ChangeDateTime="11/10/2020 09:16:09">
+    <Property Name="ElementName" Value="[dbo].[ProductQuality].[AcidityType]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProductQuality]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AcidityTypeId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="600f6abe-6ad2-49a7-891f-f339b288d484" ChangeDateTime="11/10/2020 09:18:53">
+    <Property Name="ElementName" Value="[dbo].[AcidityType].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AcidityType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AcidityTypeId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="94bdad74-fb7c-441b-901c-9d4640481410" ChangeDateTime="11/10/2020 09:23:10">
+    <Property Name="ElementName" Value="[dbo].[ProductQuality].[LMax]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProductQuality]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HunterLMax" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="899a03d2-fca3-4a3f-ad01-f076844f7e1f" ChangeDateTime="11/10/2020 09:23:16">
+    <Property Name="ElementName" Value="[dbo].[ProductQuality].[aMax]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProductQuality]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HunterAMax" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e736c13d-e47e-403d-856f-f84b4ecb39e8" ChangeDateTime="11/10/2020 09:23:45">
+    <Property Name="ElementName" Value="[dbo].[ProductQuality].[HunterLMax]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProductQuality]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HunterLMin" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8e37048c-d79c-4cb7-949f-a5a78ecde497" ChangeDateTime="11/10/2020 09:23:53">
+    <Property Name="ElementName" Value="[dbo].[ProductQuality].[HunterAMax]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProductQuality]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HunterLMax" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8ee06832-a8a8-416f-ae18-4745362695b8" ChangeDateTime="11/10/2020 09:24:05">
+    <Property Name="ElementName" Value="[dbo].[ProductQuality].[HunterBMax]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProductQuality]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HunterLAvg" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="da47bb5f-4e42-4d66-bf57-5b4b362bf5ba" ChangeDateTime="11/10/2020 10:27:32">
+    <Property Name="ElementName" Value="[dbo].[ProductQuality].[Abs520Max]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProductQuality]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Abs520Min" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="15b11b53-7c26-4e29-8c4c-5fa4ec9e0983" ChangeDateTime="11/10/2020 10:27:36">
+    <Property Name="ElementName" Value="[dbo].[ProductQuality].[Abs520]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProductQuality]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Abs520Max" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="427037d8-6480-4f54-b30b-d20a82e082a7" ChangeDateTime="11/10/2020 10:45:22">
+    <Property Name="ElementName" Value="[dbo].[ProductQuality].[ProductQualityId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProductQuality]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProductQualityChemicalId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5cd60749-dcdb-4ba7-a0c4-5053840191ae" ChangeDateTime="11/10/2020 10:45:39">
+    <Property Name="ElementName" Value="[dbo].[ProductProperty].[ProductQualityId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProductProperty]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProductQualityChemicalId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fccdaa73-9fb4-4443-b8cc-3a39d38effd0" ChangeDateTime="11/10/2020 10:54:08">
+    <Property Name="ElementName" Value="[dbo].[ProductQualityPhysical].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProductQualityPhysical]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProductQualityPhysicalId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="042aef4f-f3cf-4d8f-a5c3-9bfc0921d648" ChangeDateTime="11/10/2020 15:01:09">
+    <Property Name="ElementName" Value="[dbo].[AcidityType].[AcidityType]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AcidityType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AcidityTypeName" />
+  </Operation>
+</Operations>

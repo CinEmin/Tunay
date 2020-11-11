@@ -1,0 +1,93 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[ProductPackage]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[ProductPackage].[DateCreated] on table [dbo].[ProductPackage] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[ProductPackage].[DateUpdated] on table [dbo].[ProductPackage] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[ProductPackage].[isDeleted] on table [dbo].[ProductPackage] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[ProductPackage].[ProductPropertyId] on table [dbo].[ProductPackage] must be added, but the column has
+         no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid
+         this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation
+         of smart-defaults as a deployment option.
+       The column [dbo].[ProductPackage].[UserCreated] on table [dbo].[ProductPackage] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[ProductPackage].[UserUpdated] on table [dbo].[ProductPackage] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[ProductProperty].[DateCreated] on table [dbo].[ProductProperty] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[ProductProperty].[DateUpdated] on table [dbo].[ProductProperty] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[ProductProperty].[isDeleted] on table [dbo].[ProductProperty] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[ProductProperty].[ProductQualityPhysicalId] on table [dbo].[ProductProperty] must be added, but the
+         column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work.
+         To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the
+         generation of smart-defaults as a deployment option.
+       The column [dbo].[ProductProperty].[UserCreated] on table [dbo].[ProductProperty] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[ProductProperty].[UserUpdated] on table [dbo].[ProductProperty] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+
+** User actions
+     Rename
+       [dbo].[ProductQuality].[ProductQualityChemicalId] (Column)
+       [dbo].[ProductProperty].[ProductQualityChemicalId] (Column)
+     Drop
+       [dbo].[FK_ProductProperty_ProductQuality] (Foreign Key)
+     Table rebuild
+       [dbo].[ProductPackage] (Table)
+     Alter
+       [dbo].[ProductProperty] (Table)
+       [dbo].[FullProductInfo] (View)
+     Create
+       [dbo].[ProductQualityChemical] (Table)
+       [dbo].[ProductQualityPhysical] (Table)
+       [dbo].[FK_ProductProperty_ProductQuality] (Foreign Key)
+       [dbo].[FK_ProductQuality_AcidityType] (Foreign Key)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_ProductProperty_ProductPackage] (Foreign Key)
+     Create
+       [dbo].[FK_ProductProperty_ProductPackage] (Foreign Key)
+
+The column [dbo].[ProductPackage].[DateCreated] on table [dbo].[ProductPackage] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[ProductPackage].[DateUpdated] on table [dbo].[ProductPackage] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[ProductPackage].[isDeleted] on table [dbo].[ProductPackage] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[ProductPackage].[ProductPropertyId] on table [dbo].[ProductPackage] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[ProductPackage].[UserCreated] on table [dbo].[ProductPackage] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[ProductPackage].[UserUpdated] on table [dbo].[ProductPackage] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[ProductProperty].[DateCreated] on table [dbo].[ProductProperty] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[ProductProperty].[DateUpdated] on table [dbo].[ProductProperty] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[ProductProperty].[isDeleted] on table [dbo].[ProductProperty] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[ProductProperty].[ProductQualityPhysicalId] on table [dbo].[ProductProperty] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[ProductProperty].[UserCreated] on table [dbo].[ProductProperty] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[ProductProperty].[UserUpdated] on table [dbo].[ProductProperty] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+
