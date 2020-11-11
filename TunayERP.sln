@@ -11,6 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TunayUI", "TunayUI\TunayUI.
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TunayData", "TunayData\TunayData.csproj", "{F97F796A-99BE-4470-AF9B-8A5F75A56CDF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3A58285A-D957-4CCE-9C87-EE00F86535F9} = {3A58285A-D957-4CCE-9C87-EE00F86535F9}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TunayBusiness", "TunayBusiness\TunayBusiness.csproj", "{6B7FFCE6-940B-42C7-A2F7-654EA38E8807}"
 	ProjectSection(ProjectDependencies) = postProject

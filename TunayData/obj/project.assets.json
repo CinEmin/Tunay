@@ -302,6 +302,16 @@
             "rid": "win"
           }
         }
+      },
+      "TunayEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/TunayEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TunayEntity.dll": {}
+        }
       }
     }
   },
@@ -1187,6 +1197,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "TunayEntity/1.0.0": {
+      "type": "project",
+      "path": "../TunayEntity/TunayEntity.csproj",
+      "msbuildProject": "../TunayEntity/TunayEntity.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1195,7 +1210,8 @@
       "Microsoft.Extensions.Logging.Abstractions >= 5.0.0",
       "NETStandard.Library >= 2.0.3",
       "System.Configuration.ConfigurationManager >= 5.0.0",
-      "System.Data.SqlClient >= 4.8.2"
+      "System.Data.SqlClient >= 4.8.2",
+      "TunayEntity >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1223,7 +1239,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\eciftci\\source\\repos\\TunayDeneme\\TunayEntity\\TunayEntity.csproj": {
+              "projectPath": "C:\\Users\\eciftci\\source\\repos\\TunayDeneme\\TunayEntity\\TunayEntity.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

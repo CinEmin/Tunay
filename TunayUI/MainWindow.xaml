@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock Text="Hello" Width="100" Height="40" FontSize="36" FontWeight="Bold"/>
+        <DataGrid x:Name="ProductTable">
+            
+        </DataGrid>
     </Grid>
 </Window>

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TunayEntity.Product
+namespace TunayEntity
 {
     public class AcidityType
     {

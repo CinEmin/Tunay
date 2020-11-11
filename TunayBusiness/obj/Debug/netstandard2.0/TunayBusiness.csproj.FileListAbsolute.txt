@@ -1,0 +1,9 @@
+C:\Users\eciftci\source\repos\TunayDeneme\TunayBusiness\bin\Debug\netstandard2.0\TunayBusiness.deps.json
+C:\Users\eciftci\source\repos\TunayDeneme\TunayBusiness\bin\Debug\netstandard2.0\TunayBusiness.dll
+C:\Users\eciftci\source\repos\TunayDeneme\TunayBusiness\bin\Debug\netstandard2.0\TunayBusiness.pdb
+C:\Users\eciftci\source\repos\TunayDeneme\TunayBusiness\obj\Debug\netstandard2.0\TunayBusiness.csprojAssemblyReference.cache
+C:\Users\eciftci\source\repos\TunayDeneme\TunayBusiness\obj\Debug\netstandard2.0\TunayBusiness.AssemblyInfoInputs.cache
+C:\Users\eciftci\source\repos\TunayDeneme\TunayBusiness\obj\Debug\netstandard2.0\TunayBusiness.AssemblyInfo.cs
+C:\Users\eciftci\source\repos\TunayDeneme\TunayBusiness\obj\Debug\netstandard2.0\TunayBusiness.csproj.CoreCompileInputs.cache
+C:\Users\eciftci\source\repos\TunayDeneme\TunayBusiness\obj\Debug\netstandard2.0\TunayBusiness.dll
+C:\Users\eciftci\source\repos\TunayDeneme\TunayBusiness\obj\Debug\netstandard2.0\TunayBusiness.pdb
