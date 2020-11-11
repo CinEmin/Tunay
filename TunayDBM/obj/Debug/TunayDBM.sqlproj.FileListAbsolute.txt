@@ -4,7 +4,3 @@ C:\Users\eciftci\source\repos\TunayDeneme\TunayDBM\bin\Debug\TunayDBM.pdb
 C:\Users\eciftci\source\repos\TunayDeneme\TunayDBM\obj\Debug\TunayDBM.sqlprojAssemblyReference.cache
 C:\Users\eciftci\source\repos\TunayDeneme\TunayDBM\obj\Debug\TunayDBM.dll
 C:\Users\eciftci\source\repos\TunayDeneme\TunayDBM\obj\Debug\TunayDBM.pdb
-C:\Users\eciftci\source\repos\TunayDeneme\TunayDBM\obj\Debug\Model.xml
-C:\Users\eciftci\source\repos\TunayDeneme\TunayDBM\obj\Debug\refactor.xml
-C:\Users\eciftci\source\repos\TunayDeneme\TunayDBM\obj\Debug\postdeploy.sql
-C:\Users\eciftci\source\repos\TunayDeneme\TunayDBM\obj\Debug\predeploy.sql
